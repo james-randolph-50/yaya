@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px 1px;
+  grid-template-areas: ". . . ." ". . . ." ". . . .";
+}
+
+/* ### COLORS ### */
+
+:root {
+  --teal: #58b4ae;
+  --yellow: #ffe277;
+  --peach: #ffb367;
+  --off-peach: #ffe2bc;
+}
+
+/* ### END COLORS ### */
